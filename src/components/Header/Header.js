@@ -9,7 +9,7 @@ const Header = () =>  (
   <div>
     <Container>
       <Div1>
-        <Link href="/">
+        <Link href={`${process.env.BACKEND_URL}/`}>
           <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '15px'}}>
             <DiCssdeck size="3rem"/><Span>Portfolio</Span>
           </a>
@@ -18,21 +18,21 @@ const Header = () =>  (
 
       <Div2>
         <li>
-          <Link href={`${process.env.BACKEND_URL}/#projects`}>
+          <Link href="#projects">
             <NavLink>
               Projects
             </NavLink>
           </Link>
         </li>
         <li>
-        <Link href={`${process.env.BACKEND_URL}/#skills`}>
+          <Link href="#skills">
             <NavLink>
               Skills
             </NavLink>
           </Link>
         </li>
         <li>
-        <Link href={`${process.env.BACKEND_URL}/#about`}>
+          <Link href="#about">
             <NavLink>
               About
             </NavLink>

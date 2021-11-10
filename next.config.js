@@ -3,5 +3,5 @@ module.exports = {
     assetPrefix: '/ReactPortfolio/',
     env: {
         BACKEND_URL: '/ReactPortfolio',
-    },
+    }
 }
