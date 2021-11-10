@@ -8,3 +8,4 @@
 ```ReactJS ⋅ NextJS```
 
 ## External libraries and Dependencies
+```react-dom ⋅ styled-components ⋅ styled-normalize ⋅ react-icons```
