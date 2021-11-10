@@ -8,8 +8,8 @@ const Hero = () => (
   <Section row padding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br/>
-        My Personal Portfolio
+        I'm Ana... <br/>
+        Welcome to my page!
       </SectionTitle>
       <SectionText>
         The purpose of this portfolio page is to showcase some of my professional 
