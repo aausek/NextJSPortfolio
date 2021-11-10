@@ -17,5 +17,5 @@ deploy:
     # Only deploy when the build is on master or main branch - two common default branch names
     # If you're using a different branch name, add it here
     all_branches: true
-    condition: $TRAVIS_BRANCH =~ ^(main)$
+    condition: $TRAVIS_BRANCH =~ ^(develop)$
 
