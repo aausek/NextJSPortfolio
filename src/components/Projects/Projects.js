@@ -28,10 +28,9 @@ import { projects } from '../../constants/constants';
 // ];
 
 const Projects = () => (
-  <Section>
-    <SectionDivider>
-    </SectionDivider>
-    <SectionTitle></SectionTitle>
+  <Section nopadding id="projects">
+    <SectionDivider/>
+    <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {/* Import from constants/constants */}
       {projects.map(({id, image, title, description, tags, repo}) => (

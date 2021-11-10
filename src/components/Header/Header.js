@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillAudio, AiFillMail } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { DiAppcelerator } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -11,12 +11,19 @@ const Header = () =>  (
       <Div1>
         <Link href="#/">
           <a style={{display: "flex", alignItems: "center", color: 'white', marginBottom: '15px'}}>
-            <DiCssdeck size="3rem"/><Span>Portfolio</Span>
+            <DiAppcelerator size="3rem"/><Span>Portfolio</Span>
           </a>
         </Link>
       </Div1>
 
       <Div2>
+        {/* <li>
+          <Link href="#about">
+            <NavLink>
+              About
+            </NavLink>
+          </Link>
+        </li> */}
         <li>
           <Link href="#projects">
             <NavLink>
@@ -25,16 +32,9 @@ const Header = () =>  (
           </Link>
         </li>
         <li>
-          <Link href="#skills">
+          <Link href="#techskills">
             <NavLink>
-              Skills
-            </NavLink>
-          </Link>
-        </li>
-        <li>
-          <Link href="#about">
-            <NavLink>
-              About
+              Tech & Skills
             </NavLink>
           </Link>
         </li>

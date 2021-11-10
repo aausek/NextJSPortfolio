@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './AboutStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -43,9 +43,11 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      {/* Timeline */}
-    </div>
+    <Section nopadding id="about">
+      <SectionDivider/>
+        <SectionTitle main>About Me</SectionTitle>
+    
+  </Section>
   );
 };
 
