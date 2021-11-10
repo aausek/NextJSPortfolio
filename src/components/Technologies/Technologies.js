@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiCode, DiCss3, DiDatabase, DiHtml5, DiJavascript1, DiMysql, DiPython, DiReact } from 'react-icons/di';
+import { DiCode, DiCss3, DiDatabase, DiHtml5, DiJavascript, DiJavascript1, DiMysql, DiPython, DiReact } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -19,7 +19,8 @@ const Technologies = () =>  (
               <DiCss3 size="3rem" /> CSS3 <br/>
               <DiJavascript1 size="3rem" /> JavasScript <br/>
               <DiReact size="3rem" /> ReactJS <br/>
-              VueJS
+              <DiJavascript1 size="3rem" /> VueJS <br/>
+              
             </ListParagraph>
           </ListContainer>
         </ListItem>

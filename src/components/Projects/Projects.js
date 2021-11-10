@@ -41,7 +41,7 @@ const Projects = () => (
             <Hr/>
           </TitleContent>
           <CardInfo>{description}</CardInfo>
-          <div>
+          <div><br/>
             <TitleContent>
               Stack
             </TitleContent>

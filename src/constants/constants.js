@@ -2,8 +2,8 @@ export const projects = [
   {
     title: 'PhotoBlend',
     description: "PhotoBlend is a custom image editor application that allows users to generate new images using blending modes & filters.",
-      image: '/images/1.png',
-      tags: ['Python3', 'PyQt5', 'C', 'Rust', 'wsl'],
+    image: '/images/1.png',
+    tags: ['Python3', 'PyQt5', 'C', 'Rust', 'wsl'],
     repo: 'https://github.com/aausek/PhotoBlend',
     id: 0,
   },
