@@ -18,21 +18,21 @@ const Header = () =>  (
 
       <Div2>
         <li>
-          <Link href="#projects">
+          <Link href={`${process.env.BACKEND_URL}/#projects`}>
             <NavLink>
               Projects
             </NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#skills">
+        <Link href={`${process.env.BACKEND_URL}/#skills`}>
             <NavLink>
               Skills
             </NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#about">
+        <Link href={`${process.env.BACKEND_URL}/#about`}>
             <NavLink>
               About
             </NavLink>
