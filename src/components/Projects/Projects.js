@@ -4,28 +4,28 @@ import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag,
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
 
-// const projectsData = [
-//   {
-//     title: "Project 1",
-//     description: "This is project 1",
-//   },
-//   {
-//     title: "Project 2",
-//     description: "This is project 2",
-//   },
-//   {
-//     title: "Project 3",
-//     description: "This is project 3",
-//   },
-//   {
-//     title: "Project 4",
-//     description: "This is project 4",
-//   },
-//   {
-//     title: "Project 5",
-//     description: "This is project 5",
-//   },
-// ];
+const projectsData = [
+  {
+    title: "Project 1",
+    description: "This is project 1",
+  },
+  {
+    title: "Project 2",
+    description: "This is project 2",
+  },
+  {
+    title: "Project 3",
+    description: "This is project 3",
+  },
+  {
+    title: "Project 4",
+    description: "This is project 4",
+  },
+  {
+    title: "Project 5",
+    description: "This is project 5",
+  },
+];
 
 const Projects = () => (
   <Section>
@@ -34,7 +34,7 @@ const Projects = () => (
     <SectionTitle></SectionTitle>
     <GridContainer>
       {/* Import from constants/constants */}
-      {projects.map((project) => (
+      {projectsData.map((project) => (
         <div>
           {project.title}
           <br/>
