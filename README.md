@@ -1,4 +1,5 @@
 # Personal Portfolio
 
 ### Dev environment
-```npm run dev```
+Install dependencies - ```npm install```
+Start localhost - ```npm run dev```
