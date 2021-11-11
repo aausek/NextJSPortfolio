@@ -94,11 +94,11 @@ export const ExternalLinks = styled.a`
 color: hsla(109, 100%, 79%, 1);
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #000;
+background: hsla(267, 100%, 75%, 1);
 border-radius: 15px;
 transition: 0.5s;
 &:hover{
-  background: hsla(267, 100%, 75%, 1);
+  background: hsla(243, 64%, 84%, 1);
 
 }
 `;

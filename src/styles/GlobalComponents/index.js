@@ -167,8 +167,8 @@ export const SecondaryBtn = styled.button`
 `
 
 export const ButtonBack = styled.div`
-  width: ${({ alt }) => alt ? '150px' : '262px'};
-  height: ${({ alt }) => alt ? '52px' : '64px'};
+  width: ${({ alt }) => alt ? '150px' : '220px'};
+  height: ${({ alt }) => alt ? '52px' : '50px'};
   border-radius: 50px;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
   font-weight: 600;
@@ -178,7 +178,7 @@ export const ButtonBack = styled.div`
   margin: ${({ alt, form }) => (alt || form) ? '0' : '0 0 80px'};
   color: hsla(109, 100%, 79%, 1);
   //background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
-  background: hsla(267, 100%, 79%, 1);
+  background: hsla(243, 64%, 84%, 1);
   cursor: pointer;
   transition: 0.5s ease;
   position: relative;
@@ -211,7 +211,7 @@ export const ButtonFront = styled.button`
   width: 100%;
   height: 100%;
   // background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
-  background: #000;
+  background: hsla(267, 100%, 75%, 1);
   opacity: ${({ disabled }) => disabled ? '.5' : '1'};
   transition: .4s ease;
   font-size: ${({ alt }) => alt ? '20px' : '24px'};
