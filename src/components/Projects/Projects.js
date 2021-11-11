@@ -58,6 +58,7 @@ const Projects = () => (
       ))}
     </GridContainer>
   </Section>
+  
 );
 
 export default Projects;

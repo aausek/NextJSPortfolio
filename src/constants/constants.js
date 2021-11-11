@@ -8,20 +8,28 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Pakudex',
+    description:"OOP constructs in Python classes and objects to represent creatures and a cataloguing system.",
+    image: '/images/2.png',
+    tags: ['Python3'],
+    repo: 'https://github.com/aausek/Pakudex',
+    id: 1,
+  },
+  {
     title: 'PyCalc',
     description:"User-operated Python 3.8 calculator that executes basic mathemical operations.",
     image: '/images/2.png',
     tags: ['Python3'],
     repo: 'https://github.com/aausek/pyCalc',
-    id: 1,
+    id: 2,
   },
   {
     title: 'MyCrimeCompass',
     description: "In-Progress: Analysis of Seattle historical crime data.",
-      image: '/images/3.jpg',
-      tags: ['SQL', 'ExpressJS', 'ReactJS', 'NodeJS'],
+    image: '/images/3.jpg',
+    tags: ['SQL', 'ExpressJS', 'ReactJS', 'NodeJS'],
     repo: 'https://github.com/aausek/MyCrimeCompass',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Non-Linear Data Structures Analysis',
@@ -29,7 +37,7 @@ export const projects = [
     image: '/images/4.png',
     tags: ['C++'],
     repo: 'https://github.com/aausek/NL_DS',
-    id: 3,
+    id: 4,
   },
 ];
 

@@ -30,6 +30,7 @@ export const MainImage = styled.img`
 export const List = styled.ul`
   list-style-type: none;
   display: grid;
+  text-align: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 3rem 0;
@@ -84,7 +85,7 @@ export const ListTitle = styled.h4`
 export const ListParagraph = styled.p`
   font-size: 18px;
   line-height: 30px;
-  color: #fff;
+  color: hsla(267, 100%, 79%, 1);
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 16px;
