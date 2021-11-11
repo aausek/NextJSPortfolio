@@ -61,7 +61,6 @@ export const SectionText = styled.p`
   font-weight: 300;
   padding-bottom: 3.6rem;
   color: rgba(255, 255, 255, 0.66);
-  
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -84,8 +83,8 @@ export const SectionDivider = styled.div`
   border-radius: 10px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
-    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
-    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+    'linear-gradient(270deg, #fff 0%, hsla(109, 100%, 79%, 1) 50%)' :
+    'linear-gradient(270deg, #fff 0%, hsla(109, 100%, 79%, 1) 50%)'};
 
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
