@@ -17,7 +17,7 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: hsla(109, 100%, 79%, 1);
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
