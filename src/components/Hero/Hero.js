@@ -13,7 +13,7 @@ const Hero = () => (
       </SectionTitle>
       <SectionText>
         The purpose of this portfolio page is to showcase some of my professional 
-        and academic achievements in the are of software development.
+        and academic achievements in the area of software development.
       </SectionText>
       <Button onClick={() => window.open("https://www.linkedin.com/in/ana-ausek/", "_blank")}>More About Me</Button>
     </LeftSection>

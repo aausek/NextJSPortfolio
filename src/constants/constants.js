@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: 'PyCalc',
-    description:"User-operated Python 3.8 calculator that executes basic mathemical operations.",
+    description:"User-operated Python 3.8 calculator that executes basic mathematical operations.",
     image: '/images/2.png',
     tags: ['Python3'],
     repo: 'https://github.com/aausek/pyCalc',
