@@ -25,7 +25,7 @@ export const projects = [
   },
   {
     title: 'MyCrimeCompass',
-    description: "In-Progress: Analysis of Seattle historical crime data.",
+    description: "Analysis of Seattle historical crime data.",
     image: '/images/3.jpg',
     tags: ['SQL', 'ExpressJS', 'ReactJS', 'NodeJS'],
     repo: 'https://github.com/aausek/MyCrimeCompass',
