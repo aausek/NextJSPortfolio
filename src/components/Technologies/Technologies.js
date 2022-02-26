@@ -41,6 +41,7 @@ const Technologies = () =>  (
             <ListTitle><u>Database & Analysis</u></ListTitle>
             <ListParagraph>
               <DiDatabase size="3rem" /> Oracle SQL Developer <br/>
+              <DiDatabase size="3rem" /> SQL Server Management Studio <br/>
               <DiMysql size="3rem" /> MySQL <br/>
               <DiDatabase size="3rem" /> Zoho Analytics <br/>
               
