@@ -32,14 +32,14 @@ const Header = () =>  (
           </Link>
         </li>
         <li>
-          <Link href="#techskills">
+          <Link href="#techskills" passHref>
             <NavLink>
                 Skills
             </NavLink>
           </Link>
         </li>
         <li>
-          <Link href="#hobbies">
+          <Link href="#hobbies" passHref>
             <NavLink>
                 Hobbies
             </NavLink>
