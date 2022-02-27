@@ -27,27 +27,21 @@ const Header = () =>  (
         <li>
           <Link href="#projects">
             <NavLink>
-              <a>
                 Projects
-              </a>
             </NavLink>
           </Link>
         </li>
         <li>
           <Link href="#techskills">
             <NavLink>
-              <a>
                 Skills
-              </a>
             </NavLink>
           </Link>
         </li>
         <li>
           <Link href="#hobbies">
             <NavLink>
-              <a>
                 Hobbies
-              </a>
             </NavLink>
           </Link>
         </li>
