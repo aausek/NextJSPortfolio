@@ -4,7 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
-const Hero = () => (
+const Hero = (props) => (
   <Section row padding>
     <LeftSection>
       <SectionTitle main center>
@@ -15,7 +15,8 @@ const Hero = () => (
         Find some information about my recent CS projects, professional history and skills. 
         Check out our podcast and some favorite Spotify playlists under <i>Hobbies</i>.
       </SectionText>
-      {/* <Button onClick={() => window.open("https://www.linkedin.com/in/ana-ausek/", "_blank") } >More About Me</Button> */}
+      {/* <Button href="https://www.linkedin.com/in/ana-ausek/" target="_blank" rel="noopener noreferrer" >More About Me</Button> */}
+      <Button onClick={props.handleClick}>Learn More</Button>
     </LeftSection>
   </Section>
 );

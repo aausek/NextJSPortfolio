@@ -28,7 +28,7 @@ export const projects = [
     description:"Custom NCBI GEO data download pipeline to assist in the analysis of GSE sample files.",
     image: '/images/geo.jpg',
     tags: ['Python3'],
-    repo: 'https://github.com/aausek/pyCalc',
+    repo: 'https://github.com/aausek/GEO_Pipeline',
     id: 3,
   },
   {
