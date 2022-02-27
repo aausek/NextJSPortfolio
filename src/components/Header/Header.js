@@ -38,6 +38,13 @@ const Header = () =>  (
             </NavLink>
           </Link>
         </li>
+        <li>
+          <Link href="#hobbies">
+            <NavLink>
+              Hobbies
+            </NavLink>
+          </Link>
+        </li>
       </Div2>
 
 
