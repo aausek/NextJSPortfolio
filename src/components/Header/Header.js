@@ -47,7 +47,6 @@ const Header = () =>  (
         </li>
       </Div2>
 
-
       <Div3>
         <SocialIcons href="https://www.linkedin.com/in/ana-ausek/" target="_blank">
           <AiFillLinkedin size="3rem" />

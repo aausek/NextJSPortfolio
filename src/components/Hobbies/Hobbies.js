@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle, SectionText} from '../../styles/GlobalComponents';
 import { IframeSection } from './HobbiesStyles';
 
 const Hobbies = () => (
@@ -8,6 +8,9 @@ const Hobbies = () => (
     <IframeSection>
       <SectionDivider/>
         <SectionTitle main>Hobbies</SectionTitle>
+          <SectionText>
+          Our latest Tech Heads episode and my favorite playlist at the moment.
+          </SectionText>
           <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/e3dc5c3e-73c1-437b-9fdd-31c3da634f5d?dark=true"/>
           <br/>
           <br/>
