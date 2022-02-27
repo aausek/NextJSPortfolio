@@ -8,12 +8,20 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'GEO_Pipeline',
+    description:"Custom NCBI GEO data download pipeline to assist in the analysis of GSE sample files.",
+    image: '/images/geo.jpg',
+    tags: ['Python3'],
+    repo: 'https://github.com/aausek/GEO_Pipeline',
+    id: 1,
+  },
+  {
     title: 'Pakudex',
     description:"OOP constructs in Python classes and objects to represent creatures and a cataloguing system.",
     image: '/images/py.png',
     tags: ['Python3'],
     repo: 'https://github.com/aausek/Pakudex',
-    id: 1,
+    id: 2,
   },
   {
     title: 'PyCalc',
@@ -21,16 +29,9 @@ export const projects = [
     image: '/images/py.png',
     tags: ['Python3'],
     repo: 'https://github.com/aausek/pyCalc',
-    id: 2,
-  },
-  {
-    title: 'GEO_Pipeline',
-    description:"Custom NCBI GEO data download pipeline to assist in the analysis of GSE sample files.",
-    image: '/images/geo.jpg',
-    tags: ['Python3'],
-    repo: 'https://github.com/aausek/pyCalc',
     id: 3,
   },
+
   {
     title: 'MyCrimeCompass',
     description: "Analysis of Seattle historical crime data.",

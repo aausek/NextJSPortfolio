@@ -9,7 +9,7 @@ const Header = () =>  (
   <div>
     <Container>
       <Div1>
-        <Link href="#/">
+        <Link href="/">
           <a style={{display: "flex", alignItems: "center", color: 'hsla(109, 100%, 79%, 1)', marginBottom: '15px'}}>
             <DiAppcelerator size="3rem"/><Span>Portfolio</Span>
           </a>
@@ -27,34 +27,36 @@ const Header = () =>  (
         <li>
           <Link href="#projects">
             <NavLink>
-              Projects
+              <a>
+                Projects
+              </a>
             </NavLink>
           </Link>
         </li>
         <li>
           <Link href="#techskills">
             <NavLink>
-              Skills
+                Skills
             </NavLink>
           </Link>
         </li>
         <li>
           <Link href="#hobbies">
             <NavLink>
-              Hobbies
+                Hobbies
             </NavLink>
           </Link>
         </li>
       </Div2>
 
       <Div3>
-        <SocialIcons href="https://www.linkedin.com/in/ana-ausek/" target="_blank">
+        <SocialIcons href="https://www.linkedin.com/in/ana-ausek/" target="_blank" rel="noopener noreferrer" >
           <AiFillLinkedin size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://github.com/aausek" target="_blank">
+        <SocialIcons href="https://github.com/aausek" target="_blank" rel="noopener noreferrer" >
           <AiFillGithub size="3rem" />
         </SocialIcons>
-        <SocialIcons href="https://tech-heads.simplecast.com/" target="_blank">
+        <SocialIcons href="https://tech-heads.simplecast.com/" target="_blank" rel="noopener noreferrer" >
           <AiFillAudio size="3rem" />
         </SocialIcons>
         <SocialIcons href="mailto:ausek.ana@gmail.com">
