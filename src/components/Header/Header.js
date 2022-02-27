@@ -34,7 +34,7 @@ const Header = () =>  (
         <li>
           <Link href="#techskills">
             <NavLink>
-              Tech & Skills
+              Skills
             </NavLink>
           </Link>
         </li>
