@@ -12,10 +12,10 @@ const Hero = () => (
         Welcome to my page!
       </SectionTitle>
       <SectionText>
-        The purpose of this portfolio page is to showcase some of my professional 
-        and academic achievements in the area of software development.
+        Find some information about my recent CS projects, professional history and skills. 
+        Check out our podcast and some favorite Spotify playlists under <i>Hobbies</i>.
       </SectionText>
-      <Button onClick={() => window.open("https://www.linkedin.com/in/ana-ausek/", "_blank") } onTouchStart="https://www.linkedin.com/in/ana-ausek/">More About Me</Button>
+      {/* <Button onClick={() => window.open("https://www.linkedin.com/in/ana-ausek/", "_blank") } >More About Me</Button> */}
     </LeftSection>
   </Section>
 );
