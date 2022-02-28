@@ -31,4 +31,4 @@
 
 ## TODO
 - Implement *Sanity.io* headless CMS to feed list of projects into portfolio
-- Implement Spotify player *iframe*
+- ~~Implement Spotify player *iframe*~~ DONE
