@@ -15,7 +15,7 @@ const Hero = (props) => (
         Find some information about my recent CS projects, professional history and skills. 
         Check out our podcast and some favorite Spotify playlists under <i>Hobbies</i>.
       </SectionText>
-      {/* <Button href="https://www.linkedin.com/in/ana-ausek/" target="_blank" rel="noopener noreferrer" >More About Me</Button> */}
+      {/* <Button onClick={() => window.open("https://www.linkedin.com/in/ana-ausek/", "_blank")} >More About Me</Button> */}
     </LeftSection>
   </Section>
 );
