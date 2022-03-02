@@ -9,7 +9,7 @@ const Header = () =>  (
   <div>
     <Container>
       <Div1>
-        <Link href="/">
+        <Link href="/" passHref>
           <a style={{display: "flex", alignItems: "center", color: 'hsla(109, 100%, 79%, 1)', marginBottom: '15px'}}>
           <DiYii size="3rem" /> <Span>Portfolio</Span>
           </a>
