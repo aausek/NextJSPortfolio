@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillAudio, AiFillMail } from 'react-icons/ai';
-import { DiAppcelerator } from 'react-icons/di';
+import { DiYii } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
 
@@ -11,7 +11,7 @@ const Header = () =>  (
       <Div1>
         <Link href="/">
           <a style={{display: "flex", alignItems: "center", color: 'hsla(109, 100%, 79%, 1)', marginBottom: '15px'}}>
-            <DiAppcelerator size="3rem"/><Span>Portfolio</Span>
+          <DiYii size="3rem" /> <Span>Portfolio</Span>
           </a>
         </Link>
       </Div1>

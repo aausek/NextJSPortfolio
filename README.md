@@ -22,7 +22,7 @@
 ## Deployment Workflow
 - Push changes to `develop`
 - Create pull request to merge into `production`
-- *Git Actions* detects changes in `production` branch and build project
+- *Git Actions* detects changes in `production` branch and builds the project
 - New *GitHub Page* is published and it's pointed to custom domain [ausek.tech](https://ausek.tech)
 
 ![Git Flow](https://wac-cdn.atlassian.com/dam/jcr:a13c18d6-94f3-4fc4-84fb-2b8f1b2fd339/01%20How%20it%20works.svg?cdnVersion=233)
@@ -31,4 +31,5 @@
 
 ## TODO
 - Implement *Sanity.io* headless CMS to feed list of projects into portfolio
-- Implement Spotify player *iframe*
+- Make sticky header
+- ~~Implement Spotify player *iframe*~~ DONE

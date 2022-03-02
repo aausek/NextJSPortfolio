@@ -46,7 +46,7 @@ export const List = styled.ul`
   
   @media ${props => props.theme.breakpoints.sm}{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 32px 0;
   }
 `
@@ -101,7 +101,7 @@ export const ListParagraph = styled.p`
 export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
 
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;
