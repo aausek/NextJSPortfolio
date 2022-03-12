@@ -32,5 +32,5 @@
 ## TODO
 - Implement *Sanity.io* headless CMS to feed list of projects into portfolio
 - Make sticky header
-- Pull episode IDs from Simplecast API
+- ~~Pull episode IDs from Simplecast API~~
 - ~~Implement Spotify player *iframe*~~ DONE
