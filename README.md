@@ -2,7 +2,7 @@
 
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
-![](https://github.com/aausek/ReactPortfolio/actions/workflows/node.js.yml/badge.svg?branch=production)
+![](https://github.com/aausek/NextJSPortfolio/actions/workflows/node.js.yml/badge.svg?branch=production)
 
 ## Dev environment
 - Install dependencies - `npm install`
@@ -32,4 +32,5 @@
 ## TODO
 - Implement *Sanity.io* headless CMS to feed list of projects into portfolio
 - Make sticky header
+- ~~Pull episode IDs from Simplecast API~~
 - ~~Implement Spotify player *iframe*~~ DONE
