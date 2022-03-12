@@ -11,7 +11,7 @@ const Hobbies = () => (
           <SectionText>
           Our latest Tech Heads episode and my current favorite Spotify playlist.
           </SectionText>
-          <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/e3dc5c3e-73c1-437b-9fdd-31c3da634f5d?dark=true"/>
+          <iframe height="200px" width="100%" frameborder="no" scrolling="no" seamless src="https://player.simplecast.com/8fa3bd0f-62b0-41f2-a9b2-2038cb9da09c?dark=true"></iframe>
           <br/>
           <br/>
           <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1E4nJY3ELWBjF1?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"/>
