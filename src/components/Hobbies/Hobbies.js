@@ -20,6 +20,7 @@ const Hobbies = () => {
     "Authorization",
     // "Bearer eyJhcGlfa2V5IjoiSXdOZmJZR1JDUVk5TGhBRHl0a3dYbXEzV2RRVHA5MnQ2ZTJQZlpRekRscz0ifQ=="
     "Bearer " + process.env.NEXT_PUBLIC_TOKEN
+    
   );
 
   const requestOptions = {
