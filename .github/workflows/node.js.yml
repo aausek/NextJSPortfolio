@@ -5,7 +5,7 @@ name: Build and Deploy
 on: 
   push:
     branches: 
-      - develop
+      - production
 
 env: # Or as an environment variable
   NEXT_PUBLIC_TOKEN: ${{ secrets.NEXT_PUBLIC_TOKEN }}
