@@ -15,12 +15,10 @@ const Hobbies = () => {
 
   //console.log('"Bearer ' + process.env.NEXT_PUBLIC_TOKEN + '"');
 
-  // myHeaders.append("podcast_id", "a6a073bf-00c1-4368-9f72-f4589880b5de");
   myHeaders.append(
     "Authorization",
-    // "Bearer eyJhcGlfa2V5IjoiSXdOZmJZR1JDUVk5TGhBRHl0a3dYbXEzV2RRVHA5MnQ2ZTJQZlpRekRscz0ifQ=="
     "Bearer " + process.env.NEXT_PUBLIC_TOKEN
-    
+
   );
 
   const requestOptions = {
@@ -78,7 +76,7 @@ const Hobbies = () => {
             </SectionText>
 
             {/* TODO */}
-            <iframe
+            {/* <iframe
               height="200px"
               width="100%"
               frameborder="no"
@@ -95,7 +93,7 @@ const Hobbies = () => {
               frameBorder="0"
               allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
+            /> */}
           </IframeSection>
         </Section>
       );
