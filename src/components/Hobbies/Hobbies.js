@@ -76,7 +76,7 @@ const Hobbies = () => {
             </SectionText>
 
             {/* TODO */}
-            <iframe
+            {/* <iframe
               height="200px"
               width="100%"
               frameborder="no"
@@ -93,7 +93,7 @@ const Hobbies = () => {
               frameBorder="0"
               allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
+            /> */}
           </IframeSection>
         </Section>
       );
