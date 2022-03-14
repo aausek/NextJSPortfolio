@@ -57,7 +57,7 @@ const Hobbies = () => {
   console.log(latestEpID);
 
   if (isLoading) return <p>Loading...</p>;
-  if (!ID) return <p>No profile data</p>;
+  // if (!ID) return <p>No profile data</p>;
 
   const latestEp = "https://player.simplecast.com/" + latestEpID + "?dark=true";
 
@@ -76,7 +76,7 @@ const Hobbies = () => {
             </SectionText>
 
             {/* TODO */}
-            {/* <iframe
+            <iframe
               height="200px"
               width="100%"
               frameborder="no"
@@ -93,7 +93,7 @@ const Hobbies = () => {
               frameBorder="0"
               allowfullscreen=""
               allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            /> */}
+            />
           </IframeSection>
         </Section>
       );
