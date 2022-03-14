@@ -8,35 +8,12 @@ import {
 import { IframeSection } from "./HobbiesStyles";
 
 const Hobbies = () => {
-  const [date, setDate] = useState(0);
-  const [ID, setID] = useState(0);
+  const [date, setDate] = useState('');
+  const [ID, setID] = useState('');
   const [isLoading, setLoading] = useState(false);
   const myHeaders = new Headers();
 
-  // console.log('"Bearer ' + process.env.NEXT_PUBLIC_TOKEN + '"');
-  const epIndex = () => {
-    // Get ep scheduled date
-    // const scheduled_for = new Date(date).toLocaleString();
-    // console.log(scheduled_for);
-
-    // // Get day of the week - Sunday
-    // const currDay = new Date().toLocaleDateString();
-    // const currTime = new Date().toLocaleTimeString();
-    // const currFullDate = currDay + ", " + currTime;
-
-    // // Get hours - 18 for 6PM
-    // console.log(currDay + ", " + currTime);
-    
-    if(date == null){
-      return 0;
-    } 
-    // else if (currFullDate >= scheduled_for) {
-    //   return 0;
-    // } 
-    else {
-      return 1;
-    }
-  };
+  //console.log('"Bearer ' + process.env.NEXT_PUBLIC_TOKEN + '"');
 
   // myHeaders.append("podcast_id", "a6a073bf-00c1-4368-9f72-f4589880b5de");
   myHeaders.append(
@@ -50,26 +27,35 @@ const Hobbies = () => {
     headers: myHeaders,
     redirect: "follow",
   };
-  
+
   useEffect(() => {
     setLoading(true);
     fetch(
       "https://api.simplecast.com/podcasts/a6a073bf-00c1-4368-9f72-f4589880b5de/episodes",
-      requestOptions)
+      requestOptions
+    )
       .then((res) => res.json())
       .then((data) => {
         setDate(data.collection[0].scheduled_for);
         setID(data.collection[epIndex()].id);
         setLoading(false);
-        console.log(data);
       });
-    }, []);
-    
-  console.log(date);
+  }, []);
+  
   console.log(ID);
+  console.log(date);
+
+  const epIndex = () => {
+    
+    if (date == null || date == ''){
+      return 0;
+    } else {
+      return 1;
+    }
+  };
 
   const latestEpID = ID;
-  // console.log(latestEpID);
+  console.log(latestEpID);
 
   if (isLoading) return <p>Loading...</p>;
   if (!ID) return <p>No profile data</p>;
