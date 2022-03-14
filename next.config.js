@@ -6,4 +6,7 @@ module.exports = {
    * Replace `nextjs-github-pages` with your Github repo project name.
    */
   assetPrefix: isProd ? "/nextjs-github-pages/" : "",
+    env: {
+      NEXT_PUBLIC_TOKEN : 'eyJhcGlfa2V5IjoiSXdOZmJZR1JDUVk5TGhBRHl0a3dYbXEzV2RRVHA5MnQ2ZTJQZlpRekRscz0ifQ=='
+    }
 };
