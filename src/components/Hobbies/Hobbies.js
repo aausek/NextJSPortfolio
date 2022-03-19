@@ -17,7 +17,7 @@ const Hobbies = () => {
 
   myHeaders.append(
     "Authorization",
-    "Bearer " + process.env.NEXT_PUBLIC_TOKEN
+    "Bearer " + secrets.NEXT_PUBLIC_TOKEN
 
   );
 
