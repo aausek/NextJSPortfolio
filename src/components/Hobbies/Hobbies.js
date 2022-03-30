@@ -17,9 +17,7 @@ const Hobbies = () => {
 
   myHeaders.append(
     "Authorization",
-    // "Bearer " + process.env.NEXT_PUBLIC_TOKEN
-    "Bearer eyJhcGlfa2V5IjoiSXdOZmJZR1JDUVk5TGhBRHl0a3dYbXEzV2RRVHA5MnQ2ZTJQZlpRekRscz0ifQ=="
-
+    "Bearer " + process.env.NEXT_PUBLIC_TOKEN
   );
 
   const requestOptions = {
@@ -71,7 +69,7 @@ const Hobbies = () => {
   if (isLoading) return <p>Loading...</p>;
   // if (!ID) return <p>No profile data</p>;
 
-  const latestEp = "https://player.simplecast.com/" + "03a59d15-4a8e-4d6a-8175-1bc746fbd565" + "?dark=true";
+  const latestEp = "https://player.simplecast.com/" + latestEpID + "?dark=true";
 
   console.log(latestEp);
 
