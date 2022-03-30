@@ -82,8 +82,8 @@ const Hobbies = () => {
             <SectionDivider />
             <SectionTitle main>Hobbies</SectionTitle>
             <SectionText>
-              Our latest Tech Heads episode and my current favorite Spotify
-              playlist.
+              Our latest Tech Heads episode and the latest F1: Beyond The Grid 
+              episode.
             </SectionText>
 
             {/* TODO */}
