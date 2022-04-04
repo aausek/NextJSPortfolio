@@ -7,6 +7,6 @@ module.exports = {
    */
   assetPrefix: isProd ? "/NextJSPortfolio/" : "",
   env: {
-    NEXT_PUBLIC_TOKEN: 'eyJhcGlfa2V5IjoiSXdOZmJZR1JDUVk5TGhBRHl0a3dYbXEzV2RRVHA5MnQ2ZTJQZlpRekRscz0ifQ==',
+    NEXT_PUBLIC_TOKEN: process.env.NEXT_PUBLIC_TOKEN,
   }
 };

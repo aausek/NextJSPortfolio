@@ -18,7 +18,6 @@ const Hobbies = () => {
   myHeaders.append(
     "Authorization",
     "Bearer " + process.env.NEXT_PUBLIC_TOKEN
-
   );
 
   const requestOptions = {
@@ -82,8 +81,8 @@ const Hobbies = () => {
             <SectionDivider />
             <SectionTitle main>Hobbies</SectionTitle>
             <SectionText>
-              Our latest Tech Heads episode and my current favorite Spotify
-              playlist.
+              Our latest Tech Heads episode and the latest F1: Beyond The Grid 
+              episode.
             </SectionText>
 
             {/* TODO */}
@@ -97,14 +96,14 @@ const Hobbies = () => {
             ></iframe>
             <br />
             <br />
-            <iframe
-              src="https://open.spotify.com/embed/playlist/37i9dQZF1E4nJY3ELWBjF1?utm_source=generator&theme=0"
-              width="100%"
-              height="380"
-              frameBorder="0"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            />
+            
+            {/* SPOTIFY PLAYER */}
+            <iframe 
+              src="https://open.spotify.com/embed/show/44YvwJyqsCEEhNZBxuXZQ9?utm_source=generator&theme=0" 
+              width="100%" height="152" frameBorder="0" allowfullscreen="" 
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+            </iframe>
+
           </IframeSection>
         </Section>
       );
