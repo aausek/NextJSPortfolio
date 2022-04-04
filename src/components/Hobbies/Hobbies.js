@@ -63,13 +63,10 @@ const Hobbies = () => {
     }
   };
 
-  const latestEpID = ID;
-  console.log(latestEpID);
-
   if (isLoading) return <p>Loading...</p>;
   // if (!ID) return <p>No profile data</p>;
 
-  const latestEp = "https://player.simplecast.com/" + latestEpID + "?dark=true";
+  const latestEp = "https://player.simplecast.com/" + ID + "?dark=true";
 
   console.log(latestEp);
 
@@ -94,7 +91,6 @@ const Hobbies = () => {
               seamless
               src={latestEp}
             ></iframe>
-            <p>{latestEp}</p>
             <br />
             <br />
             
