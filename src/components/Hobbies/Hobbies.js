@@ -17,7 +17,7 @@ const Hobbies = () => {
 
   myHeaders.append(
     "Authorization",
-    "Bearer " + process.env.NEXT_PUBLIC_TOKEN
+    process.env.NEXT_PUBLIC_TOKEN
   );
 
   const requestOptions = {
@@ -94,6 +94,7 @@ const Hobbies = () => {
               seamless
               src={latestEp}
             ></iframe>
+            <p>{latestEp}</p>
             <br />
             <br />
             
