@@ -29,7 +29,7 @@ const Hobbies = () => {
   useEffect(() => {
     setLoading(true);
     fetch(
-      "https://api.simplecast.com/podcasts/a6a073bf-00c1-4368-9f72-f4589880b5de/episodes",
+      process.env.NEXT_PUBLIC_URL,
       requestOptions
     )
       .then((res) => res.json())
@@ -37,11 +37,11 @@ const Hobbies = () => {
         setDate(data.collection[0].scheduled_for);
         setID(data.collection[epIndex()].id);
         setLoading(false);
+        console.log(ID);
+        console.log(date);
       });
   }, []);
   
-  console.log(ID);
-  console.log(date);
 
   const epIndex = () => {
   //   // Get ep scheduled date
