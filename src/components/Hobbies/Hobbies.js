@@ -44,19 +44,19 @@ const Hobbies = () => {
   console.log(date);
 
   const epIndex = () => {
-    // Get ep scheduled date
-  const scheduled_for = new Date(date).toLocaleString();
-  console.log(scheduled_for);
+  //   // Get ep scheduled date
+  // const scheduled_for = new Date(date).toLocaleString();
+  // console.log(scheduled_for);
 
-  // Get day of the week - Sunday
-  const currDay = new Date().toLocaleDateString();
-  const currTime = new Date().toLocaleTimeString();
-  const currFullDate = currDay + ", " + currTime;
+  // // Get day of the week - Sunday
+  // const currDay = new Date().toLocaleDateString();
+  // const currTime = new Date().toLocaleTimeString();
+  // const currFullDate = currDay + ", " + currTime;
 
   // Get hours - 18 for 6PM
-  console.log(currDay + ", " + currTime);
+  // console.log(currDay + ", " + currTime);
     
-    if (currFullDate >= scheduled_for){
+    if (date == null){
       return 0;
     } else {
       return 1;
