@@ -35,3 +35,4 @@
 - ~~Pull episode IDs from Simplecast API~~
 - ~~Implement Spotify player *iframe*~~ DONE
 - ~~Implement **Year** in which project was built~~ DONE
+- Correct project description spacing
