@@ -78,12 +78,11 @@ const Hobbies = () => {
             <SectionDivider />
             <SectionTitle main>Hobbies</SectionTitle>
             <SectionText>
-              Our latest Tech Heads episode and the latest F1: Beyond The Grid 
-              episode.
+              The latest <a href='https://tech-heads.simplecast.com/' target='_blank' style={{color: 'hsla(138, 58%, 82%, 1)'}}>Tech Heads</a> and F1: Beyond The Grid episode.
             </SectionText>
 
-            {/* TODO */}
-            <iframe
+            {/* SIMPLECAST PLAYER */}
+            {/* <iframe
               height="200px"
               width="100%"
               frameborder="no"
@@ -92,7 +91,7 @@ const Hobbies = () => {
               src={latestEp}
             ></iframe>
             <br />
-            <br />
+            <br /> */}
             
             {/* SPOTIFY PLAYER */}
             <iframe 

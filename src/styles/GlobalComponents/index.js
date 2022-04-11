@@ -115,6 +115,12 @@ export const SectionSubText = styled.p`
     font-size: 14px;
     line-height: 22px;
   }
+
+  &:hover {
+    color: #0f1624;
+    background: #fff;
+    border: 1px solid #fff;
+  }
 `
 export const SecondaryBtn = styled.button`
   color: #FFF;

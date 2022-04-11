@@ -1,11 +1,19 @@
 export const projects = [
   {
+    title: 'SlackBot',
+    description: "Scrape Simplecast Overview Page to pull numerical value for Last 7 Days Downloads & All Time",
+    image: '/images/py.png',
+    tags: ['Python3', 'requests',],
+    repo: 'https://github.com/aausek/SlackBot',
+    id: 0,
+  },
+  {
     title: 'PhotoBlend',
     description: "PhotoBlend is a custom image editor application that allows users to generate new images using blending modes & filters.",
     image: '/images/photoblend.png',
     tags: ['Python3', 'PyQt5', 'C', 'Rust', 'wsl'],
     repo: 'https://github.com/aausek/PhotoBlend',
-    id: 0,
+    id: 1,
   },
   {
     title: 'GEO_Pipeline',
@@ -13,7 +21,7 @@ export const projects = [
     image: '/images/geo.jpg',
     tags: ['Python3'],
     repo: 'https://github.com/aausek/GEO_Pipeline',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Pakudex',
@@ -21,7 +29,7 @@ export const projects = [
     image: '/images/py.png',
     tags: ['Python3'],
     repo: 'https://github.com/aausek/Pakudex',
-    id: 2,
+    id: 3,
   },
   {
     title: 'PyCalc',
@@ -29,7 +37,7 @@ export const projects = [
     image: '/images/py.png',
     tags: ['Python3'],
     repo: 'https://github.com/aausek/pyCalc',
-    id: 3,
+    id: 4,
   },
 
   {
@@ -38,7 +46,7 @@ export const projects = [
     image: '/images/mcc.jpg',
     tags: ['SQL', 'ExpressJS', 'ReactJS', 'NodeJS'],
     repo: 'https://github.com/aausek/MyCrimeCompass',
-    id: 4,
+    id: 5,
   },
   {
     title: 'Non-Linear Data Structures Analysis',
@@ -46,7 +54,7 @@ export const projects = [
     image: '/images/nlds.png',
     tags: ['C++'],
     repo: 'https://github.com/aausek/NL_DS',
-    id: 5,
+    id: 6,
   },
 ];
 
