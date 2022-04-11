@@ -1,7 +1,8 @@
 export const projects = [
   {
     title: 'SlackBot',
-    description: "Scrape Simplecast Overview Page to pull numerical value for Last 7 Days Downloads & All Time",
+    year: '2022',
+    description: "Scrape Simplecast Overview Page to pull numerical value for Last 7 Days Downloads & All Time.",
     image: '/images/py.png',
     tags: ['Python3', 'requests',],
     repo: 'https://github.com/aausek/SlackBot',
@@ -9,6 +10,7 @@ export const projects = [
   },
   {
     title: 'PhotoBlend',
+    year: '2021',
     description: "PhotoBlend is a custom image editor application that allows users to generate new images using blending modes & filters.",
     image: '/images/photoblend.png',
     tags: ['Python3', 'PyQt5', 'C', 'Rust', 'wsl'],
@@ -17,6 +19,7 @@ export const projects = [
   },
   {
     title: 'GEO_Pipeline',
+    year: '2021',
     description:"Custom NCBI GEO data download pipeline to assist in the analysis of GSE sample files.",
     image: '/images/geo.jpg',
     tags: ['Python3'],
@@ -25,6 +28,7 @@ export const projects = [
   },
   {
     title: 'Pakudex',
+    year: '2021',
     description:"OOP constructs in Python classes and objects to represent creatures and a cataloguing system.",
     image: '/images/py.png',
     tags: ['Python3'],
@@ -33,6 +37,7 @@ export const projects = [
   },
   {
     title: 'PyCalc',
+    year: '2021',
     description:"User-operated Python 3.8 calculator that executes basic mathematical operations.",
     image: '/images/py.png',
     tags: ['Python3'],
@@ -42,6 +47,7 @@ export const projects = [
 
   {
     title: 'MyCrimeCompass',
+    year: '2021',
     description: "Analysis of Seattle historical crime data.",
     image: '/images/mcc.jpg',
     tags: ['SQL', 'ExpressJS', 'ReactJS', 'NodeJS'],
@@ -50,6 +56,7 @@ export const projects = [
   },
   {
     title: 'Non-Linear Data Structures Analysis',
+    year: '2020',
     description: "Analysis of insertion, traversal, and deletion of AVL Trees and Binary Search Trees in C++.",
     image: '/images/nlds.png',
     tags: ['C++'],

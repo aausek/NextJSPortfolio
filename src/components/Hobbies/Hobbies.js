@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { IoOpenOutline } from 'react-icons/io5';
 import {
   Section,
   SectionDivider,
@@ -78,7 +79,7 @@ const Hobbies = () => {
             <SectionDivider />
             <SectionTitle main>Hobbies</SectionTitle>
             <SectionText>
-              The latest <a href='https://tech-heads.simplecast.com/' target='_blank' style={{color: 'hsla(138, 58%, 82%, 1)'}}>Tech Heads</a> and F1: Beyond The Grid episode.
+              The latest <a href='https://tech-heads.simplecast.com/' target='_blank' style={{color: 'hsla(138, 58%, 82%, 1)'}}>Tech Heads <IoOpenOutline/></a> and F1: Beyond The Grid episode.
             </SectionText>
 
             {/* SIMPLECAST PLAYER */}
