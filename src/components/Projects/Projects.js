@@ -33,11 +33,12 @@ const Projects = () => (
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
       {/* Import from constants/constants */}
-      {projects.map(({id, image, title, description, tags, repo}) => (
+      {projects.map(({id, image, title, year, description, tags, repo}) => (
         <BlogCard key={id}>
           <Img src={image}/>
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
+            <HeaderThree year>{year}</HeaderThree>
             <Hr/>
           </TitleContent>
           <CardInfo>{description}</CardInfo>

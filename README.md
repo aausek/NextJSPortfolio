@@ -34,4 +34,4 @@
 - Make sticky header
 - ~~Pull episode IDs from Simplecast API~~
 - ~~Implement Spotify player *iframe*~~ DONE
-- Implement **Year** in which project was built
+- ~~Implement **Year** in which project was built~~ DONE
